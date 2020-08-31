@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=RIAWj28tvxU (Particularly useful information abo
 
 
 
-#Making a basic sequence
+# Making a Sequence
 
 Contrary to a traditional sequencer, the rhythmachines sequences are made with a combination of "cylinders" and "pegs" within a 3D environment.
 
@@ -38,7 +38,7 @@ One way you could use this to create sound is to pass the output of the fromSeq 
 If a peg on channel 0 were to make a collision with another peg, it would send its signal which would be received here and trigger a 909 bass sound to be played.
 
 
-#Controls
+# Controls
 
 ## Create a cylinder
 - **Double L-Click** in a square on the grid.
@@ -64,3 +64,6 @@ If a peg on channel 0 were to make a collision with another peg, it would send i
 :c:{{2}fromSeq}\909closed;
 >{:a:, :b:, :c:}mix;
 ```
+
+## Creating a melody
+One way you could create a melody is by setting different signal values for multiple pegs and have them trigger a saw wave.
