@@ -1,16 +1,26 @@
-# Introduction to the RHYTHMACHINES Sequencer.
+#Tutorial
 
-This is the first tutorial for a new music sequencer within the sema environment. If you are unfamiliar with sema, it is a web based playground where you can rapidly prototype live coding mini-languages for signal synthesis, machine learning and machine listening.
+# Introduction
+
+This is the first tutorial for rhythmachines, a new music sequencer within the sema environment. If you are unfamiliar with sema, it is a web based playground where you can rapidly prototype live coding mini-languages for signal synthesis, machine learning and machine listening.
 
 It is recommended that if you have never used sema before, that you watch some introductory videos which can be found here.
 
-## Introduction to sema video playlist
-https://www.youtube.com/watch?v=RIAWj28tvxU&list=PLdzdpTgsHB7YrnDc3dflWYWgoHL4pmRPo&index=2
+[Introduction to Sema playlist](https://www.youtube.com/watch?v=RIAWj28tvxU&list=PLdzdpTgsHB7YrnDc3dflWYWgoHL4pmRPo&index=1 "Introduction to sema video playlist")
+
+[Introduction to the default language](https://www.youtube.com/watch?v=RIAWj28tvxU "Introduction to the default language")
 
 
-## Introduction to the default language
-https://www.youtube.com/watch?v=RIAWj28tvxU (Particularly useful information about the default language used in sema is covered in this video).
+# Setting up the sequencing environment
 
+Once you navigate to amalgah.github.io. Either login or continue as guest. To then set up the sequencer environment and a live-coding window you want to follow the following steps.
+
+- Navigate to playground by using the navigation bar at the top of the page.
+- Click reset on the left side pane to clear the environment.
+- Select 3D Sequencer on the left side pane.
+- Select the LiveCode Editor button on the left side pane. Using the dropdown menu then select default to use the default language.
+
+You are now ready to start 3-Dimensional sequencing and live coding :)
 
 
 # Making a Sequence
@@ -49,9 +59,13 @@ If a peg on channel 0 were to make a collision with another peg, it would send i
   - A menu will appear where you can edit the cylinders speed or delete it.
 
 ## Create a Peg
-**Left Click** on any cylinder face.
+- **Left Click** on any cylinder face.
   - This will create a peg at the location of the face.
   - The size of the peg is determined relative to the height and radius of the cylinder.
+
+## Adjust Cylinder Rotation
+- Left click on a nudge button (the arrows above each cylinder).
+  - This allows for phase control, by letting you slow down or speed up the rotation of a cylinder.
 
 
 
@@ -64,6 +78,3 @@ If a peg on channel 0 were to make a collision with another peg, it would send i
 :c:{{2}fromSeq}\909closed;
 >{:a:, :b:, :c:}mix;
 ```
-
-## Creating a melody
-One way you could create a melody is by setting different signal values for multiple pegs and have them trigger a saw wave.
