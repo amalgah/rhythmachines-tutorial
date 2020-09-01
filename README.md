@@ -28,6 +28,9 @@ You are now ready to start 3-Dimensional sequencing and live coding :)
 ## Create a cylinder
 - **Double Left Click** in a square on the grid.
 	- A menu will pop up where you can enter values to create a cylinder with your desired specifications.
+		- **Height** this is the height of the cylinder.
+		- **Radius** this is the radius of the cylinder.
+		- **Segments** This is the number of height and radial segments of the cylinder.
 
 ## Edit Cylinders Settings
 - **Right Click** on a cylinder
@@ -38,9 +41,23 @@ You are now ready to start 3-Dimensional sequencing and live coding :)
   - This will create a peg at the location of the face.
   - The size of the peg is determined relative to the height and radius of the cylinder.
 
+## Edit Peg Settings
+- **Right Click** on a cylinder
+  - A menu will appear where you can edit the pegs settings.
+		- **Sound**: When this setting is enabled triggers will be sent to the audio engine.
+
 ## Adjust Cylinder Rotation
 - **Left Click** on a nudge button (the arrows above each cylinder).
   - This allows for phase control, by letting you slow down or speed up the rotation of a cylinder.
+
+## Play Sequencer
+- **Spacebar**
+
+## Run Code in LiveCode Window
+- **Ctrl + Enter**
+
+## Stop Code in LiveCode Window
+- **Ctrl + .**
 
 
 # Making a Sequence
