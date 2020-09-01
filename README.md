@@ -23,6 +23,25 @@ Once you navigate to amalgah.github.io. Either login or continue as guest. To th
 
 You are now ready to start 3-Dimensional sequencing and live coding :)
 
+# Controls
+
+## Create a cylinder
+- **Double Left Click** in a square on the grid.
+	- A menu will pop up where you can enter values to create a cylinder with your desired specifications.
+
+## Edit Cylinders Settings
+- **Right Click** on a cylinder
+  - A menu will appear where you can edit the cylinders speed or delete it.
+
+## Create a Peg
+- **Left Click** on any cylinder face.
+  - This will create a peg at the location of the face.
+  - The size of the peg is determined relative to the height and radius of the cylinder.
+
+## Adjust Cylinder Rotation
+- **Left Click** on a nudge button (the arrows above each cylinder).
+  - This allows for phase control, by letting you slow down or speed up the rotation of a cylinder.
+
 
 # Making a Sequence
 
@@ -68,26 +87,8 @@ Here we have two variables `:snare:` and `:kick:` and mixing them together using
 There are 0 to 15 channels for you to use currently.
 
 
-# Controls
 
-## Create a cylinder
-- **Double Left Click** in a square on the grid.
-	- A menu will pop up where you can enter values to create a cylinder with your desired specifications.
-
-## Edit Cylinders Settings
-- **Right Click** on a cylinder
-  - A menu will appear where you can edit the cylinders speed or delete it.
-
-## Create a Peg
-- **Left Click** on any cylinder face.
-  - This will create a peg at the location of the face.
-  - The size of the peg is determined relative to the height and radius of the cylinder.
-
-## Adjust Cylinder Rotation
-- **Left Click** on a nudge button (the arrows above each cylinder).
-  - This allows for phase control, by letting you slow down or speed up the rotation of a cylinder.
-
-# Tips
+# Tips if things are not working
 
 - Check that your code is compiling by navigating to Debuggers, then Live Code Parser Output. This will help you debug your code.
 - Check that the audio engine is running (click the speaker icon in the top right).
